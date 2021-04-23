@@ -48,7 +48,7 @@ for n in namein_list:
     if vote_counts[n] > high:
         high = vote_counts[n]
         winner = n
-print(winner)
+#print(winner)
 
 print("Election Results\n-------------------")
 print(f"Total Votes : {voterin_number}\n---------------------")
